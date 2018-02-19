@@ -1,0 +1,43 @@
+*,
+*:before,
+*:after {
+	-webkit-box-sizing: border-box;
+     	-moz-box-sizing: border-box;
+         	 box-sizing: border-box;
+}
+.clearfix:before,
+.clearfix:after {
+	content: "";
+	display: table;
+}
+.clearfix:after {
+	clear: both;
+}
+.clearfix {
+	clear: both;
+	*zoom: 1;
+}
+.container {
+	max-width: 1170px;
+	margin: 0 auto;
+}
+@font-face {
+  font-family: 'Fregat';
+  src: url('../fonts/fregat-regular/Fregat.eot?#iefix') format('embedded-opentype'),  
+  		url('../fonts/fregat-regular/Fregat.otf')  format('opentype'),
+	    url('../fonts/fregat-regular/Fregat.woff') format('woff'), 
+	    url('../fonts/fregat-regular/Fregat.ttf')  format('truetype'), 
+	    url('../fonts/fregat-regular/Fregat.svg#Fregat') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Fregat-Bold';
+  src: url('../fonts/fregat-bold/Fregat-Bold.eot?#iefix') format('embedded-opentype'),  
+  		url('../fonts/fregat-bold/Fregat-Bold.otf')  format('opentype'),
+	    url('../fonts/fregat-bold/Fregat-Bold.woff') format('woff'), 
+	    url('../fonts/fregat-bold/Fregat-Bold.ttf')  format('truetype'), 
+	    url('../fonts/fregat-bold/Fregat-Bold.svg#Fregat-Bold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
